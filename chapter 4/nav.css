@@ -1,0 +1,44 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+ul {
+	list-style-type: none;
+	border-bottom: 5px solid orchid;
+	height: 50px;
+	padding-left: 50px;
+}
+
+li {
+	float: left;
+	margin-top: 20px;
+	margin-right: 1px;
+}
+
+a {
+	display: block;
+	height: 30px;
+	text-align: center;
+	line-height: 30px;
+	text-decoration: none;
+	width: 120px;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	background-color: orange;
+}
+
+.on,a:hover {
+	color: wheat;
+	display: block;
+	background-color: orchid;
+	height: 40px;
+	line-height: 40px;
+	margin-top: -10px;
+	width: 120px;
+}
+
+#placeholder{
+
+	margin: 50px;
+}

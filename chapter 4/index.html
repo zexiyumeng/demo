@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="nav.css" />
+	</head>
+
+	<body>
+		<ul id="prepareGallery">
+			<li>
+				<a  href="../img/clock.jpg" title="clock"  >clock</a>
+			</li>
+			<li>
+				<a  href="../img/photo.jpg" title="photo" >photo</a>
+			</li>
+			<li>
+				<a  href="../img/light.jpg" title="light" >light</a>
+			</li>
+			<li>
+				<a  href=" ../img/fridge.jpg "  >fridge</a>
+			</li> 
+		</ul>
+		<img src="../img/timg.jpg" id="placeholder" alt="占位图" />
+		<p id="description" title="hello">这段会随着我的点击变化</p>
+		<script src="test4.js" type="text/javascript" charset="utf-8"></script>
+		<!--<script>
+			window.onload = function() {
+				var aA = document.getElementsByTagName('a');
+				for(var i = 0; i < aA.length; i++) {
+					aA[i].onmouseover = function() {
+						var This = this;
+						clearInterval(This.time);
+						This.time = setInterval(function() {
+							This.style.width = This.offsetWidth + 8 + "px";
+							if(This.offsetWidth >= 160)
+								clearInterval(This.time);
+						}, 30)
+					}
+					aA[i].onmouseout = function() {
+						clearInterval(this.time);
+						var This = this;
+						this.time = setInterval(function() {
+							This.style.width = This.offsetWidth - 8 + "px";
+							if(This.offsetWidth <= 120) {
+								This.style.width = '120px';
+								clearInterval(This.time);
+							}
+						}, 30)
+					}
+				}
+			}
+		</script>-->
+	</body>
+
+</html>
